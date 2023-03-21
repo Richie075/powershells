@@ -1,0 +1,1 @@
+﻿Test-NetConnection 10.102.43.107 -port 20001

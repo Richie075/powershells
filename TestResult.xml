@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run start-time="2022-10-18 08:27:07Z">
+  <command-line><![CDATA["C:\Program Files (x86)\NUnit.org\nunit-console\nunit3-console.exe" D:\vsprojects\Calculator2\Calculator\Calculator.Test\bin\x64\Release\net5.0\Calculator.Test.dll --inprocess ]]></command-line>
+</test-run>

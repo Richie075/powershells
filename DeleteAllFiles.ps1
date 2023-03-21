@@ -1,0 +1,1 @@
+﻿Get-ChildItem -Path D:\SVN\current\up2\line -Include *.ruleset -File -Recurse | foreach { $_.Delete()}

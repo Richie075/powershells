@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" runstate="Runnable" testcasecount="2" result="Passed" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.15.2.0" clr-version="6.0.9" start-time="2022-10-18 08:42:25Z" end-time="2022-10-18 08:42:26Z" duration="0.731610">
+  <command-line><![CDATA[D:\Downloads\NUnit.Console-3.15.2\bin\net6.0\nunit3-console.dll D:\vsprojects\Calculator2\Calculator\Calculator.Test\bin\x64\Release\net5.0\Calculator.Test.dll --result=UnitTestResults.xml]]></command-line>
+  <test-suite type="Assembly" id="1-1004" name="Calculator.Test.dll" fullname="D:/vsprojects/Calculator2/Calculator/Calculator.Test/bin/x64/Release/net5.0/Calculator.Test.dll" runstate="Runnable" testcasecount="2" result="Passed" start-time="2022-10-18T08:42:25.7687200Z" end-time="2022-10-18T08:42:26.3657146Z" duration="0.596958" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+    <environment framework-version="3.13.1.0" clr-version="6.0.9" os-version="Microsoft Windows 10.0.19044" platform="Win32NT" cwd="D:\Powershell" machine-name="PIDALSWS0058" user="andreas.risch" user-domain="VTI" culture="en-GB" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="D:\Powershell" />
+      <setting name="NumberOfTestWorkers" value="12" />
+    </settings>
+    <properties>
+      <property name="_PID" value="10720" />
+      <property name="_APPDOMAIN" value="nunit3-console" />
+    </properties>
+    <test-suite type="SetUpFixture" id="1-1000" name="[default namespace]" fullname="Calculator_Test_NUnitAssemblyHooks" classname="Calculator_Test_NUnitAssemblyHooks" runstate="Runnable" testcasecount="2" result="Passed" start-time="2022-10-18T08:42:25.7747904Z" end-time="2022-10-18T08:42:26.3656663Z" duration="0.590875" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+      <output><![CDATA[-> Loading plugin D:\vsprojects\Calculator2\Calculator\Calculator.Test\bin\x64\Release\net5.0\LivingDoc.SpecFlowPlugin.dll
+-> Loading plugin D:\vsprojects\Calculator2\Calculator\Calculator.Test\bin\x64\Release\net5.0\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
+-> Loading plugin D:\vsprojects\Calculator2\Calculator\Calculator.Test\bin\x64\Release\net5.0\Calculator.Test.dll
+-> Missing [assembly:RuntimePlugin] attribute in Calculator.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null. Please check https://go.specflow.org/doc-plugins for details.
+-> Using default config
+-> LivingDocPlugin: Output generated in: D:\vsprojects\Calculator2\Calculator\Calculator.Test\bin\x64\Release\net5.0\TestExecution.json
+]]></output>
+      <test-suite type="TestSuite" id="1-1005" name="Calculator" fullname="Calculator" runstate="Runnable" testcasecount="2" result="Passed" start-time="2022-10-18T08:42:26.1390986Z" end-time="2022-10-18T08:42:26.2480917Z" duration="0.108993" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+        <test-suite type="TestSuite" id="1-1006" name="Test" fullname="Calculator.Test" runstate="Runnable" testcasecount="2" result="Passed" start-time="2022-10-18T08:42:26.1391337Z" end-time="2022-10-18T08:42:26.2480880Z" duration="0.108954" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <test-suite type="TestSuite" id="1-1007" name="Features" fullname="Calculator.Test.Features" runstate="Runnable" testcasecount="2" result="Passed" start-time="2022-10-18T08:42:26.1391394Z" end-time="2022-10-18T08:42:26.2480798Z" duration="0.108940" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <test-suite type="TestFixture" id="1-1001" name="CalculatorFeature" fullname="Calculator.Test.Features.CalculatorFeature" classname="Calculator.Test.Features.CalculatorFeature" runstate="Runnable" testcasecount="2" result="Passed" start-time="2022-10-18T08:42:26.1391835Z" end-time="2022-10-18T08:42:26.2476886Z" duration="0.108505" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="Description" value="Calculator" />
+              </properties>
+              <test-case id="1-1002" name="AddTwoNumbers" fullname="Calculator.Test.Features.CalculatorFeature.AddTwoNumbers" methodname="AddTwoNumbers" classname="Calculator.Test.Features.CalculatorFeature" runstate="Runnable" seed="1836654960" result="Passed" start-time="2022-10-18T08:42:26.1417341Z" end-time="2022-10-18T08:42:26.2391865Z" duration="0.097548" asserts="0">
+                <properties>
+                  <property name="Description" value="Add two numbers" />
+                  <property name="Category" value="mytag" />
+                </properties>
+                <output><![CDATA[Given the first number is 50
+-> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(50) (0.0s)
+And the second number is 70
+-> done: CalculatorStepDefinitions.GivenTheSecondNumberIs(70) (0.0s)
+When the two numbers are added
+-> done: CalculatorStepDefinitions.WhenTheTwoNumbersAreAdded() (0.0s)
+Then the result should be 120
+-> done: CalculatorStepDefinitions.ThenTheResultShouldBe(120) (0.0s)
+]]></output>
+              </test-case>
+              <test-case id="1-1003" name="MultiplyTwoNumbers" fullname="Calculator.Test.Features.CalculatorFeature.MultiplyTwoNumbers" methodname="MultiplyTwoNumbers" classname="Calculator.Test.Features.CalculatorFeature" runstate="Runnable" seed="68046363" result="Passed" start-time="2022-10-18T08:42:26.2412330Z" end-time="2022-10-18T08:42:26.2449734Z" duration="0.003740" asserts="0">
+                <properties>
+                  <property name="Description" value="Multiply two numbers" />
+                  <property name="Category" value="mytag" />
+                </properties>
+                <output><![CDATA[Given the first operand is 5
+-> done: CalculatorStepDefinitions.GivenTheFirstOperandIs(5) (0.0s)
+And the second operand is 6
+-> done: CalculatorStepDefinitions.GivenTheSecondOperandIs(6) (0.0s)
+When the two numbers are multiplied
+-> done: CalculatorStepDefinitions.WhenTheTwoNumbersAreMultiplied() (0.0s)
+Then the result should be 30
+-> done: CalculatorStepDefinitions.ThenTheResultShouldBe(30) (0.0s)
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
